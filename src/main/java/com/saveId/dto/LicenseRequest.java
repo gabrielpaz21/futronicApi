@@ -16,8 +16,8 @@ public class LicenseRequest {
 	@NotBlank
 	private String full_name;
 	
-	@NotNull
-	private Long number_phone;
+	@NotBlank
+	private String number_phone;
 	
 	@NotBlank
 	private String email;
